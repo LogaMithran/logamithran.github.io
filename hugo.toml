@@ -45,7 +45,7 @@ weight = 20
 [[menu.main]]
 pageRef = "about"
 name = 'About'
-url = '/pages/about/'
+url = '/about'
 weight = 30
 
 [params]
@@ -90,6 +90,10 @@ url = "https://leetcode.com/u/logamithran2001/"
 [[params.socialIcons]]
 name = "linkedin"
 url = "https://www.linkedin.com/in/mithran-kannan/"
+
+[[params.socialIcons]]
+name = "youtube"
+url = "https://www.youtube.com/@mithrankannan_m_k"
 
 [tableOfContents]
 startLevel = 2  # ToC starts from H2

@@ -45,7 +45,7 @@ weight = 20
 [[menu.main]]
 pageRef = "about"
 name = 'About'
-url = '/about'
+url = '/about/'
 weight = 30
 
 [params]

@@ -43,7 +43,6 @@ url = '/posts/'
 weight = 20
 
 [[menu.main]]
-pageRef = "about"
 name = 'About'
 url = '/about/'
 weight = 30

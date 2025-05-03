@@ -18,6 +18,9 @@ There are different OAuth grant types like
 
 All these grant types are used for authenticating users to your application via an Identity provider. Out of these, 1 and 2 are used in most of the web applications.
 
+
+![pkce_diagram](/pkce_diagram.svg)
+
 # Why should you care about?
 With the Authorization Code grant, your client remains secure if it's a confidential (private) client. However, for public clients, the client secret cannot be securely stored and exposing it can lead to security vulnerabilities
 

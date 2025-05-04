@@ -60,11 +60,8 @@ toc = false                                            # set to false to disable
 goToTop = true                                         # set to false to disable 'go to top' button
 
 [params.author]
-avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
-# Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
 intro = "Mithran"
 name = "Mithran"
-description = "Breaking down tech, one at a time."
 
 # Allow to override webmanifest options
 [params.webmanifest]

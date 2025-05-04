@@ -46,7 +46,7 @@ code_challenge = Base64.strict_encode64(code_verifier)
 
 ```http
 https://<host>/protocol/openid-connect/auth?client_id=<client_id>&code_challenge=<code_challenge>&
-    code_challenge_method=S256&prompt=consent&redirect_uri=https://<host>/admin/auth/keycloak/callback&
+    code_challenge_method=S256&prompt=consent&redirect_uri=https://<host>/admin/auth/callback&
     response_type=code&scope=openid
 ```
 

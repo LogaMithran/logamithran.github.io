@@ -14,7 +14,10 @@ drafts but are now ready to share.
 ---
 [![](https://visitcount.itsvg.in/api?id=LogaMithran&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## Credits
+
+Built with the [hugo-blog-awesome](https://github.com/hugo-sid/hugo-blog-awesome) template. Thanks to the creator!
+
 > 📝 If you notice any mistakes or have suggestions, feel free
 > to [reach out to me](https://www.linkedin.com/in/mithran-kannan).
 

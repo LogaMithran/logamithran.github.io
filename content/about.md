@@ -13,7 +13,7 @@ drafts but are now ready to share.
 
 # Pet projects
 
-1. Visual representation of Dijkstra's and bellman ford algorithm [checkout](https://dottdot.netlify.app/dijkstra)
+1. Visual representation of Dijkstra's and bellman ford algorithm [checkout](https://dottdot.netlify.app)
 
 ## Credits
 

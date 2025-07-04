@@ -5,7 +5,7 @@ title = 'Real-Time vs Scheduled: Kafka Connect and Cron in Data Workflows'
 
 Polling vs Real-Time data sync
 
-In today's world, syncing and processing data is crucial in real time. Running concurrent crons in place may solve the issue, but is it really enough when you have millions of records to handle?
+Syncing and processing data is crucial in real time. Running concurrent crons in place may solve the issue, but is it really enough when you have millions of records to handle?
 
 ### Use case
 Some of the use cases where kafka connect can be useful
@@ -29,3 +29,7 @@ Cron can be used
 - Low priority tasks
 - Periodic batch jobs or backups
 - When data size is small
+
+1. Whenever data is inserted or updated, a transactional log is created by MySQL in the form of a binlog.
+2. CDC tools like Debezium read these events and publish them to Kafka topics.
+3. Applications or consumers can then read these events and process them as needed.

@@ -13,7 +13,7 @@ Some of the use cases where kafka connect can be useful
 2. Event-driven architecture
 3. Syncing data from datasource A to datasource B 
 
-![cron-diagram](/cdc-block-diagram.drawio.svg)
+![cron-diagram](/cdc-block-diagram-Page.svg)
 
 ### When to choose CDC
 
@@ -30,6 +30,10 @@ Cron can be used
 - Periodic batch jobs or backups
 - When data size is small
 
+### Flow
 1. Whenever data is inserted or updated, a transactional log is created by MySQL in the form of a binlog.
 2. CDC tools like Debezium read these events and publish them to Kafka topics.
 3. Applications or consumers can then read these events and process them as needed.
+
+Up next!!
+Let's set up CDC tool(Debezium) for a simple data sync from a Mysql Table A -> B
